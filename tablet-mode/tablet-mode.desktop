@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Tablet Mode
+Icon=/usr/share/icons/custom/tablet-icon-mode.png
+Exec=/usr/local/bin/tablet-mode.sh

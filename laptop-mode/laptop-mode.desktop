@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Laptop Mode
+Icon=/usr/share/icons/custom/laptop-icon-mode.png
+Exec=/usr/local/bin/laptop-mode.sh
