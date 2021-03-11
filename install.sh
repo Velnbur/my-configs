@@ -1,4 +1,5 @@
 #!/bin/bash
+alias sudo=doas
 LIST_OF_APPS="tmux vim ssh git htop zsh"
 sudo apt update
 sudo apt install "$LIST_OF_APPS"
