@@ -2,6 +2,11 @@ syntax on
 set shiftwidth=4
 set tabstop=4
 
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
