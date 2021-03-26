@@ -34,4 +34,10 @@ fi
 if [ -d "$HOME/go" ] ; then
     export PATH=$PATH:/usr/local/go/bin
     export GOPATH=$HOME/go
+	export PATH=$PATH:$HOME/go/bin
 fi
+if [ -d "$HOME/.dotnet" ] ; then
+	export PATH=$PATH:/$HOME/.dotnet/tools
+fi
+
+
