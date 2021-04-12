@@ -48,3 +48,10 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+
+(package! editorconfig)
+(package! elpy)
+
+(package! jedi)
+
+(package! flycheck)
