@@ -27,17 +27,17 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 if [ -d "$HOME/.doom.d" ] ; then
-    export PATH=$PATH:$HOME/.emacs.d/bin
+    PATH="$PATH:$HOME/.emacs.d/bin"
     export DOOMDIR=$HOME/.doom.d
 fi
 
 if [ -d "$HOME/go" ] ; then
-    export PATH=$PATH:/usr/local/go/bin
+    PATH="$PATH:/usr/local/go/bin"
     export GOPATH=$HOME/go
-	export PATH=$PATH:$HOME/go/bin
+    PATH="$PATH:$GOPATH/bin"
 fi
 if [ -d "$HOME/.dotnet" ] ; then
-	export PATH=$PATH:/$HOME/.dotnet/tools
+    PATH="$PATH:/$HOME/.dotnet/tools"
 fi
 
 
